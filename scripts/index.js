@@ -63,3 +63,15 @@ popups.forEach(popup => {
         if (e.target === popup) popup.style.display = "none";
     });
 });
+
+
+
+document.querySelector('.dayModeButton').addEventListener('click', () => {
+    const theme = document.getElementById('theme');
+
+    if (theme.getAttribute('href') === '/styles/index.css') {
+        theme.setAttribute('href', '/styles/index-white.css');
+    } else {
+        theme.setAttribute('href', '/styles/index.css');
+    }
+});
