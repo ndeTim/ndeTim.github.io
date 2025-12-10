@@ -80,3 +80,13 @@ document.querySelector('.dayModeButton').addEventListener('click', () => {
         theme.setAttribute('href', '/styles/index.css');
     }
 });
+
+document.querySelector('.dayModeButtonMobile').addEventListener('click', () => {
+    const theme = document.getElementById('theme');
+
+    if (theme.getAttribute('href') === '/styles/index.css') {
+        theme.setAttribute('href', '/styles/index-white.css');
+    } else {
+        theme.setAttribute('href', '/styles/index.css');
+    }
+});
