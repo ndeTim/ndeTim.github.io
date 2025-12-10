@@ -389,6 +389,10 @@ body{
     height: 49.3px;
 }
 
+.right2{
+    display: none;
+}
+
 .reviews{
     margin-top: 80px;
     justify-self: center;
@@ -475,6 +479,7 @@ body{
     padding-bottom: 150px;
     display: flex;
     justify-content: space-between;
+    color: black;
 }
 
 .socialsFooter{
@@ -685,6 +690,10 @@ body{
 }
 
 #promoImage{
+    background: url(/images/promoInVK.jpg);
+}
+
+#promoImage2{
     background: url(/images/promoInTT.jpg);
 }
 
@@ -737,7 +746,7 @@ body{
 }
 
 a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -783,9 +792,7 @@ a{
     width: 400px;
     text-align: center;
     position: relative;
-    width: 600px;
-    height: 600px;
-
+    width: 500px;
     display: grid;
     justify-content: left;
 }
@@ -804,6 +811,371 @@ a{
 }
 
 .case{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 32px;
+}
+
+.underlineLink{
+    text-decoration: underline;
+}
+
+.mobileHeader{
+    display: none;
+}
+
+.descriptionForTopActionMobile{
+    display: none;
+}
+
+.artistImage2{
+    display: none;
+}
+
+a{
+    color: black;
+}
+
+
+
+
+@media (max-width:1050px){
+    body{
+        background-repeat: no-repeat;
+    }
+    .header{
+        display: none;
+    }
+    .nightModeButton{
+        display: none;
+    }
+    .mobileHeader{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 57px;
+    }
+    .nightModeButtonMobile{
+        background: url(/images/dayModeIcon.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 38px;
+        height: 22px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+    }
+    .menuButton{
+        background: url(/images/menuIcon.svg);
+        width: 30px;
+        height: 22px;
+        border: none;
+    }
+    .topAction{
+        display: grid;
+        justify-content: center;
+        width: auto;
+    }
+    .proofs{
+        font-size: 9px;
+        padding: 7px 4px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .descriptionForTopAction{
+        display: none;
+    }
+    
+    .descriptionForTopActionMobile{
+        display: block;
+        width: 260px;
+        margin-top: 12px;
+        color: #525252;
+        font-weight: 400;
+    }
+
+    .descriptionForTopActionMobileBold{
+        font-weight: 700;
+    }
+
+    .buttonForTopAction{
+        margin-left: auto;
+        margin-top: 9px;
+        padding: 5px 33px 5px 33px;
+        background: black;
+        border-radius: 50px;
+        color: linear-gradient(to right, #FFFFFF, #00CAFF);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 18px;
+    }
+
+    .textForButtonForTopAction{
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        width: 195px;
+    }
+    .leftContentForTopAction{
+        display: grid;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    .rightContentForTopAction{
+        background: url(/images/imgForTopActionMobile.svg);
+        width: 300px;
+        height: 300px;
+    }
+
+    .blockForMobileHeader{
+        display: flex;
+        justify-content: center;
+    }
+
+    .workWith{
+        width: 300px;
+        display: grid;
+    }
+
+    .leadText{
+        font-size: 24px;
+    }
+
+    .imagesLineForWorkWith{
+        width: auto;
+        display: grid;
+    }
+
+    .imagesLineForWorkWith2{
+        display: grid;
+        width: auto;
+    }
+
+    .centerForWorkWith{
+        margin-top: 28px;
+    }
+
+    .artistImage{
+        position: sticky;
+        top: 0;
+        margin-top: 20px;
+    }
+
+    #artistImage{
+        top: 50px;
+    }
+
+    #artistImage2{
+        top: 100px;
+    }
+
+    #artistImage3{
+        top: 150px;
+    }
+
+    #artistImage4{
+        top: 200px;
+    }
+
+    #artistImage5{
+        top: 250px;
+    }
+
+    .artistImage2{
+        display: grid;
+        position: sticky;
+        top: 0;
+        margin-top: 20px;
+    }
+
+    #displayNone{
+        display: none;
+    }
+
+    .ourResults{
+        width: auto;
+    }
+
+    .blockForOurResults{
+        display: grid;
+        padding: 25px;
+    }
+
+    .resultCardTop{
+        margin-top: 26px;
+    }
+
+    .ourServices{
+        width: auto;
+    }
+
+    .slider{
+        width: 356px;
+    }
+
+    .slides{
+        width: calc(250px * 1 + 1px * 2);
+    }
+
+    .right{
+        display: none;
+    }
+
+    .right2{
+    display: flex;
+    background: url(/images/toTheRightBlack.svg);
+    width: 29px;
+    height: 49.3px;
+    }
+
+    .underlineLink{
+        color: white;
+    }
+
+    .reviews{
+        width: auto;
+    }
+
+    .review{
+        padding: 10px;
+        width: 280px;
+        height: 106px;
+    }
+
+    .reviewerImage{
+        width: 50px;
+        height: 50px;
+        align-self: center;
+    }
+
+    .reviewerName{
+        font-size: 14px;
+        width: 130px;
+    }
+
+    .reviewText{
+        width: 215px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .textForReview{
+        margin-left: 15px;
+    }
+
+    .vkReviewsButton{
+        justify-content: left;
+    }
+
+    .vkReviews{
+        width: 172px;
+        height: 17px;
+    }
+
+    .vkReviews:hover{
+        width: 172px;
+    }
+
+    .footer{
+        width: 300px;
+        margin-top: 50px;
+        display: grid;
+    }
+
+    .vkFooter{
+        width: 25px;
+        height: 25px;
+    }
+
+    vkFooter
+
+    .ttFooter{
+        width: 25px;
+        height: 25px;
+    }
+
+    .tgFooter{
+        width: 25px;
+        height: 25px;
+    }
+
+    .footerSqazly{
+        font-size: 14px;
+    }
+
+    .linksFooter{
+        font-size: 12px;
+    }
+
+    .expicloudLink{
+        font-size: 12px;
+    }
+    
+    .popup-content2{
+        width: 300px;
+    }
+
+    .close{
+        padding: 9px 6px 9px 6px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+    .exitButton{
+        width: 17.4px;
+        height: 12.86px;
+    }
+
+    .popUpName{
+        width: 260px;
+        height: 30px;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    .case{
+        width: 300px;
+        height: 300px;
+    }
+
+    .popup-content{
+        width: 300px;
+    }
+
+    .serviceBlock{
+        margin-top: 19px;
+        display: grid;
+        width: 300px;
+        padding-bottom: 18px;
+    }
+
+    .serviceImage{
+        width: 300px;
+        height: 300px;
+    }
+
+    .serviceText{
+        width: 250px;
+        overflow: scroll;
+    }
+
+    .ServiceName{
+        font-size: 16px;
+    }
+
+    .serviceDescription{
+        font-size: 12px;
+    }
+
+    .dropTrackButton{
+        width: 300px;
+        height: 51px;
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+
+    .popup{
+        overflow: scroll;
+    }
 }

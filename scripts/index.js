@@ -22,6 +22,11 @@ document.querySelector(".arrow.right").onclick = () => {
     updateSlider();
 };
 
+document.querySelector(".arrow.right2").onclick = () => {
+    index = Math.min(index + 1, 7);
+    updateSlider();
+};
+
 updateSlider();
 
 
