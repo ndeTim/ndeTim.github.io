@@ -1,0 +1,1181 @@
+body{
+    background: url(/images/dayBackground.svg);
+    background-size: cover;
+    height: auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: Inter;
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    justify-content: center;
+}
+
+.dayModeButton{
+    background: url(/images/dayModeIcon.svg);
+    width: 49px;
+    height: 28.82px;
+    border: none;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.header{
+    position: relative;
+    margin-top: 77px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    z-index: 2;
+}
+
+.text-navigation{
+    width: 618px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    background: url(/images/logo.png);
+    background-size: contain;
+    width: 75px;
+    height: 75px;
+    border: none;
+}
+
+.getCons{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    padding: 13px 19px 13px 19px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.getCons:hover{
+    background: linear-gradient(to right, #000000, #00CAFF);
+    color: white;
+}
+
+.text-nav{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    padding: 13px 19px 13px 19px;
+    cursor: pointer;
+}
+
+.text-nav:hover {
+    background: linear-gradient(to right, #81BECE, #81BECE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img-navigation{
+    width: 135px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vkNavButton{
+    background: url(/images/vkActiveBlack.svg);
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.vkNavButton:hover{
+    background: url(/images/vkBlueButton.svg)
+}
+
+.ttNavButton{
+    background: url(/images/ttActiveBlack.svg);
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.ttNavButton:hover{
+    background: url(/images/ttBlueButton.svg)
+}
+
+.tgNavButton{
+    background: url(/images/tgActiveBlack.svg);
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.tgNavButton:hover{
+    background: url(/images/tgBlueButton.svg)
+}
+
+.topAction{
+    position: relative;
+    z-index: 2;
+    margin-top: 70px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    background: linear-gradient(to right, #FFFFFF, #00CAFF);
+    border-radius: 20px;
+        box-shadow: 0 0 100px #00CAFF;
+    -webkit-box-shadow: 0 0 100px #00CAFF;
+}
+
+.rightContentForTopAction{
+    background: url(/images/imgForTopAction.png);
+    width: 320px;
+    height: 320px;
+}
+
+.blockUnderTopAction{
+    justify-self: center;
+    width: 1000px;
+    border-radius: 20px;
+
+}
+
+.proofs{
+    width: fit-content;
+    margin-left: 90px;
+    margin-top: 14px;
+    font-size: 16px;
+    background: #FFFFFF;
+    padding: 10px 19px 10px 19px;
+    border-radius: 20px;
+}
+
+.descriptionForTopAction{
+    color: #525252;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 33px;
+    width: 630px;
+}
+
+.buttonForTopAction{
+    margin-top: 18px;
+    margin-left: 33px;
+    padding: 15px 170px 15px 170px;
+    background: black;
+    border-radius: 50px;
+    color: linear-gradient(to right, #FFFFFF, #00CAFF);
+}
+
+.buttonForTopAction:hover {
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.buttonForTopAction:hover .textForButtonForTopAction {
+    background: linear-gradient(to right, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.textForButtonForTopAction{
+    background: linear-gradient(to right, #FFFFFF, #00CAFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.workWith{
+    position: relative;
+    z-index: 2;
+    margin-top: 80px;
+    justify-self: center;
+    width: 1000px;
+}
+
+.leadText{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.centerForWorkWith{
+    margin-top: 46px;
+    display: grid;
+    justify-content: center;
+}
+
+.imagesLineForWorkWith{
+    width: 868px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.imagesLineForWorkWith2{
+    width: 868px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artistImage{
+    width: 250px;
+    height: 250px;
+    transition-duration: 300ms;
+}
+
+.artistImage:hover{
+    width: 260px;
+    height: 260px;
+    transition-duration: 300ms;
+}
+
+.ourResults{
+    margin-top: 80px;
+    justify-self: center;
+    width: 1000px;
+}
+
+.blockForOurResults {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 53px 27px 53px;
+    border-radius: 20px;
+
+    background-color: rgba(0, 0, 0, 0.2);
+
+    backdrop-filter: blur(48px); 
+
+    box-shadow: inset 0px 4px 0px rgba(255,255,255,0.15),
+    inset 0px 4px 68px rgba(255,255,255,0.05);
+    margin-top: 26px;
+}
+
+.resultCard{
+    width: 250px;
+    display: ruby;
+    text-align: center;
+}
+
+.underResult {
+    width: 201px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(48px);
+    -webkit-backdrop-filter: blur(48px);
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+#underResult1{
+    background: url(/images/bluredBlockForResult.png);
+}
+
+#underResult2{
+    background: url(/images/bluredBlockForResult2.png);
+}
+
+#underResult3{
+    background: url(/images/bluredBlockForResult3.png);
+}
+
+.result{
+    overflow: visible;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+#result1{
+    background: url(/images/result1.svg);
+}
+
+#result2{
+    background: url(/images/result2.svg);
+}
+
+#result3{
+    background: url(/images/result3.svg);
+}
+
+.result:hover{
+    border-radius: 20px;
+    outline: 1px solid #000000;
+    outline-offset: -1px;
+}
+
+.ourServices{
+    margin-top: 80px;
+    justify-self: center;
+    width: 1000px;
+}
+
+.slider {
+    margin-top: 26px;
+    width: 1000px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* вот так */
+    gap: 24px;
+}
+
+.arrow {
+    font-size: 50px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.slides {
+    width: calc(250px * 3 + 72px * 2);
+    overflow: hidden;
+    display: flex;
+}
+
+.slide {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-right: 72px;
+    transition-duration: 300ms;
+    cursor: pointer;
+    outline: 2px solid #000000;
+    outline-offset: -2px;
+}
+
+.slide:hover{
+    border-radius: 20px;
+    outline: 2px solid #00CAFF;
+    outline-offset: -2px;
+    transition-duration: 100ms;
+}
+
+.left{
+    background: url(/images/toTheLeftBlack.svg);
+    width: 29px;
+    height: 49.3px;
+}
+
+.right{
+    background: url(/images/toTheRightBlack.svg);
+    width: 29px;
+    height: 49.3px;
+}
+
+.right2{
+    display: none;
+}
+
+.reviews{
+    margin-top: 80px;
+    justify-self: center;
+    width: 1000px;
+}
+
+.reviewsBlock{
+    display: grid;
+    justify-content: center;
+}
+
+.review{
+    background-color: rgba(0, 0, 0, 0.2);
+
+    backdrop-filter: blur(48px); 
+
+    box-shadow: inset 0px 4px 0px rgba(255,255,255,0.15),
+    inset 0px 4px 68px rgba(255,255,255,0.05);
+    margin-top: 26px;
+    padding: 26px 24px 26px 24px;
+
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    width: 894px;
+    height: 128px;
+}
+
+.reviewerImage{
+    width: 100px;
+    height: 100px;
+}
+
+.textForReview{
+    margin-left: 35px;
+    display: grid;
+    justify-content: left;
+    text-align: left;
+}
+
+.reviewerName{
+    background: linear-gradient(to right, #000000, #00CAFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: left;
+    width: 300px;
+}
+
+.reviewText{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    width: 754px;
+    height: 96px;
+    margin-top: 2px;
+}
+
+.vkReviewsButton{
+    display: flex;
+    justify-content: right;
+}
+
+.vkReviews{
+    background: url(/images/vkReviewsBlack.svg);
+    width: 300px;
+    height: 29px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 18px;
+    text-align: right;
+    cursor: pointer;
+}
+.vkReviews:hover{
+    width: 310px;
+}
+
+.footer{
+    width: 1000px;
+    margin-top: 114px;
+    justify-self: center;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.socialsFooter{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vkFooter{
+    background: url(/images/vkActiveBlack.svg);
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.vkFooter:hover{
+    background: url(/images/vkBlueButton.svg);
+}
+
+.ttFooter{
+    background: url(/images/ttActiveBlack.svg);
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.ttFooter:hover{
+    background: url(/images/ttBlueButton.svg);
+}
+
+.tgFooter{
+    background: url(/images/tgActiveBlack.svg);
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.tgFooter:hover{
+    background: url(/images/tgBlueButton.svg);
+}
+
+.footerSqazly{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 12px;
+
+}
+
+.linksFooter{
+    margin-top: 12px;
+    display: flex;
+    justify-content: left;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.linkFooter:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.space{
+    opacity: 0;
+}
+
+.rightFooter{
+    color: rgb(0, 0, 0);
+    align-self: end;
+    font-weight: 200;
+}
+
+.expicloudLink:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(68px);
+    -webkit-backdrop-filter: blur(68px); 
+
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    width: 1041px;
+    height: 665px;
+
+    display: grid;
+    justify-content: left;
+}
+
+.close {
+    padding: 14px 10px 14px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.headerPopUp{
+    display: flex;
+    justify-content: left;
+}
+
+.exitButton{
+    width: 29px;
+    height: 21.44px;
+}
+
+.popUpName{
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    width: 436px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceImage{
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+#distrImage{
+    background: url(/images/distrImage.svg);
+}
+
+.serviceBlock{
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 32px;
+    border-radius: 20px;
+    display: flex;
+
+}
+.serviceText{
+    width: 487px;
+    color: white;
+    margin-left: 26px;
+    margin-right: 26px;
+    text-align: left;
+}
+
+.ServiceName{
+    margin-top: 26px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.serviceDescription{
+    margin-top: 28px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dropTrackButtonBlock{
+    width: 500px;
+}
+
+.dropTrackButton{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 20px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 51px;
+    cursor: pointer;
+}
+
+#promoImage{
+    background: url(/images/promoInVK.jpg);
+}
+
+#promoImage2{
+    background: url(/images/promoInTT.jpg);
+}
+
+#mixAndMasterImage{
+    background: url(/images/mixAndMaster.jpg);
+}
+
+#snippetImage{
+    background: url(/images/snippet.jpg);
+}
+
+#coverImage{
+    background: url(/images/coverForUrRelease.jpg);
+}
+
+#plailistsImage{
+    background: url(/images/playlists.jpg);
+}
+
+#communicateImage{
+    background: url(/images/comunicate.jpg);
+}
+
+#MixAndMasterName{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mixPlanName{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#mixPlnDesc{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+#mixPlnDescGrey{
+    margin-top: 8px;
+    color: #AEAEAE;
+}
+
+#portfolioMixAndMaster{
+    margin-top: 8px;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#snipetDescription{
+    font-size: 16px;
+}
+
+#playlistDescr{
+    font-size: 16px;
+}
+
+#communicateServiceDesc{
+    height: 450px;
+    overflow: scroll;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.startCommunicate{
+    text-decoration: none;
+}
+
+.popup2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(68px);
+    -webkit-backdrop-filter: blur(68px); 
+
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content2 {
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    width: 500px;
+    display: grid;
+    justify-content: left;
+}
+
+.close2 {
+    padding: 14px 10px 14px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.case{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 32px;
+}
+
+.underlineLink{
+    text-decoration: underline;
+}
+
+.mobileHeader{
+    display: none;
+}
+
+.descriptionForTopActionMobile{
+    display: none;
+}
+
+.artistImage2{
+    display: none;
+}
+
+a{
+    color: black;
+}
+
+
+
+
+@media (max-width:1050px){
+    body{
+        background-repeat: no-repeat;
+    }
+    .header{
+        display: none;
+    }
+    .nightModeButton{
+        display: none;
+    }
+    .mobileHeader{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 57px;
+    }
+    .nightModeButtonMobile{
+        background: url(/images/dayModeIcon.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 38px;
+        height: 22px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+    }
+    .menuButton{
+        background: url(/images/menuIcon.svg);
+        width: 30px;
+        height: 22px;
+        border: none;
+    }
+    .topAction{
+        display: grid;
+        justify-content: center;
+        width: auto;
+    }
+    .proofs{
+        font-size: 9px;
+        padding: 7px 4px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .descriptionForTopAction{
+        display: none;
+    }
+    
+    .descriptionForTopActionMobile{
+        display: block;
+        width: 260px;
+        margin-top: 12px;
+        color: #525252;
+        font-weight: 400;
+    }
+
+    .descriptionForTopActionMobileBold{
+        font-weight: 700;
+    }
+
+    .buttonForTopAction{
+        margin-left: auto;
+        margin-top: 9px;
+        padding: 5px 33px 5px 33px;
+        background: black;
+        border-radius: 50px;
+        color: linear-gradient(to right, #FFFFFF, #00CAFF);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 18px;
+    }
+
+    .textForButtonForTopAction{
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        width: 195px;
+    }
+    .leftContentForTopAction{
+        display: grid;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    .rightContentForTopAction{
+        background: url(/images/imgForTopActionMobile.svg);
+        width: 300px;
+        height: 300px;
+    }
+
+    .blockForMobileHeader{
+        display: flex;
+        justify-content: center;
+    }
+
+    .workWith{
+        width: 300px;
+        display: grid;
+    }
+
+    .leadText{
+        font-size: 24px;
+    }
+
+    .imagesLineForWorkWith{
+        width: auto;
+        display: grid;
+    }
+
+    .imagesLineForWorkWith2{
+        display: grid;
+        width: auto;
+    }
+
+    .centerForWorkWith{
+        margin-top: 28px;
+    }
+
+    .artistImage{
+        position: sticky;
+        top: 0;
+        margin-top: 20px;
+    }
+
+    #artistImage{
+        top: 50px;
+    }
+
+    #artistImage2{
+        top: 100px;
+    }
+
+    #artistImage3{
+        top: 150px;
+    }
+
+    #artistImage4{
+        top: 200px;
+    }
+
+    #artistImage5{
+        top: 250px;
+    }
+
+    .artistImage2{
+        display: grid;
+        position: sticky;
+        top: 0;
+        margin-top: 20px;
+    }
+
+    #displayNone{
+        display: none;
+    }
+
+    .ourResults{
+        width: auto;
+    }
+
+    .blockForOurResults{
+        display: grid;
+        padding: 25px;
+    }
+
+    .resultCardTop{
+        margin-top: 26px;
+    }
+
+    .ourServices{
+        width: auto;
+    }
+
+    .slider{
+        width: 356px;
+    }
+
+    .slides{
+        width: calc(250px * 1 + 1px * 2);
+    }
+
+    .right{
+        display: none;
+    }
+
+    .right2{
+    display: flex;
+    background: url(/images/toTheRightBlack.svg);
+    width: 29px;
+    height: 49.3px;
+    }
+
+    .underlineLink{
+        color: white;
+    }
+
+    .reviews{
+        width: auto;
+    }
+
+    .review{
+        padding: 10px;
+        width: 280px;
+        height: 106px;
+    }
+
+    .reviewerImage{
+        width: 50px;
+        height: 50px;
+        align-self: center;
+    }
+
+    .reviewerName{
+        font-size: 14px;
+        width: 130px;
+    }
+
+    .reviewText{
+        width: 215px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .textForReview{
+        margin-left: 15px;
+    }
+
+    .vkReviewsButton{
+        justify-content: left;
+    }
+
+    .vkReviews{
+        width: 172px;
+        height: 17px;
+    }
+
+    .vkReviews:hover{
+        width: 172px;
+    }
+
+    .footer{
+        width: 300px;
+        margin-top: 50px;
+        display: grid;
+    }
+
+    .vkFooter{
+        width: 25px;
+        height: 25px;
+    }
+
+    vkFooter
+
+    .ttFooter{
+        width: 25px;
+        height: 25px;
+    }
+
+    .tgFooter{
+        width: 25px;
+        height: 25px;
+    }
+
+    .footerSqazly{
+        font-size: 14px;
+    }
+
+    .linksFooter{
+        font-size: 12px;
+    }
+
+    .expicloudLink{
+        font-size: 12px;
+    }
+    
+    .popup-content2{
+        width: 300px;
+    }
+
+    .close{
+        padding: 9px 6px 9px 6px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+    .exitButton{
+        width: 17.4px;
+        height: 12.86px;
+    }
+
+    .popUpName{
+        width: 260px;
+        height: 30px;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    .case{
+        width: 300px;
+        height: 300px;
+    }
+
+    .popup-content{
+        width: 300px;
+    }
+
+    .serviceBlock{
+        margin-top: 19px;
+        display: grid;
+        width: 300px;
+        padding-bottom: 18px;
+    }
+
+    .serviceImage{
+        width: 300px;
+        height: 300px;
+    }
+
+    .serviceText{
+        width: 250px;
+        overflow: scroll;
+    }
+
+    .ServiceName{
+        font-size: 16px;
+    }
+
+    .serviceDescription{
+        font-size: 12px;
+    }
+
+    .dropTrackButton{
+        width: 300px;
+        height: 51px;
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+
+    .popup{
+        overflow: scroll;
+    }
+}
