@@ -1166,6 +1166,7 @@ a{
     }
 
     .popup{
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 }
