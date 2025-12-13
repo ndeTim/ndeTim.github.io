@@ -7,33 +7,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet">
 <script src="/scripts/index.js" defer></script>
 <title>Sqazly Music</title>
-<!-- <style>
-  /* Canvas как фон */
-  #noise {
-    position: fixed;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none; /* чтобы клики проходили через canvas */
-    z-index: 0;           /* позади контента */
-  }
 
-  /* Контент поверх canvas */
-  body, html {
-    margin: 0;
-    height: 100%;
-  }
-
-  .header {
-    position: relative;
-    z-index: 1; /* выше canvas */
-  }
-</style> -->
+</style>
 </head>
 <body>
     <a href="#" class="nightModeButton dayModeButton"></a>
-
-    <!-- <canvas id="noise"></canvas> -->
 
     <div class="header">
         <button class="logo"></button>
@@ -51,9 +29,9 @@
     </div>
     <div class="blockForMobileHeader">
         <div class="mobileHeader">
-        <a href="#" class="nightModeButtonMobile dayModeButtonMobile"></a>
-        <button class="menuButton"></button>
-    </div>
+            <a href="#" class="nightModeButtonMobile dayModeButtonMobile"></a>
+            <button class="menuButton" data-popup="popup12"></button>
+        </div>
     </div>
 
     <div class="blockUnderTopAction">
@@ -514,40 +492,26 @@
         </div>
     </div>
 
+    <div id="popup12" class="popup popup2">
+        <div class="menuContent">
+            <div class="menuToRight">
+                    <span class="close closeMenu"><img src="/images/menuIcon2.svg" alt="" class="closeMenuButton">
+                    </span>
+            </div>
+            <div class="menuStr">
+                <a href="#workWith" class="menuButtons menuButtonCloseMenu">Кейсы</a>
+                <a href="https://t.me/sqazlymusic_help" target="_blank" rel="noopener noreferrer" class="menuButtons menuButtonGetCons menuButtonCloseMenu2">Получить консультацию</a>
+            </div>
+            <div class="menuStr">
+                <a href="#ourServices" class="menuButtons menuButtonCloseMenu3">Услуги</a>
+                <a href="#reviews" class="menuButtons menuButtonCloseMenu4">Отзывы</a>
+                <a href="https://vk.com/sqazlymusic" target="_blank" rel="noopener noreferrer"><button class="vkNavButton vkNavButton2"></button></a>
+                <a href="https://www.tiktok.com/@sqazly_music" target="_blank" rel="noopener noreferrer"><button class="ttNavButton ttNavButton2"></button></a>
+                <a href="https://t.me/sqazlymusiclabel" target="_blank" rel="noopener noreferrer"><button class="tgNavButton tgNavButton2"></button></a>
+            </div>
+        </div>
+    </div>
+
 </div>
-<!-- <script>
-const c = document.getElementById("noise");
-const ctx = c.getContext("2d");
-let frame = 0;
-
-function resize() {
-  c.width = window.innerWidth;
-  c.height = window.innerHeight;
-}
-resize();
-window.addEventListener('resize', resize);
-
-function draw() {
-  frame++;
-  if (frame % 2) { 
-    requestAnimationFrame(draw); 
-    return; 
-  }
-
-  const img = ctx.createImageData(c.width, c.height);
-  const d = img.data;
-
-  for (let i = 0; i < d.length; i += 4) {
-    const v = Math.random() * 255;
-    d[i] = d[i+1] = d[i+2] = v;
-    d[i+3] = 40; // прозрачность
-  }
-
-  ctx.putImageData(img, 0, 0);
-  requestAnimationFrame(draw);
-}
-
-draw();
-</script> -->
 </body>
 </html>
