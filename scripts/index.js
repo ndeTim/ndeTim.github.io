@@ -37,9 +37,7 @@ function openPopupById(id) {
   popup.style.display = 'flex';
 }
 
-// Делегируем клики по документу (ловит и картинки, и дивы внутри карточки)
 document.addEventListener('click', (e) => {
-  // если кликнули по элементу или его родителю, у которого есть data-popup
   const popupTrigger = e.target.closest('[data-popup]');
 
   if (popupTrigger) {
@@ -48,7 +46,6 @@ document.addEventListener('click', (e) => {
     return;
   }
 
-  // (Опционально) если хочешь, чтобы конкретно клики по .slide тоже работали без data-popup:
   const slide = e.target.closest('.slide');
   if (slide && slide.dataset.popup) {
     openPopupById(slide.dataset.popup);
@@ -56,19 +53,50 @@ document.addEventListener('click', (e) => {
   }
 });
 
-// Закрытие всех попапов
+
 const popups = document.querySelectorAll(".popup");
+
 popups.forEach(popup => {
-    const closeBtn = popup.querySelector(".close","close2");
-    closeBtn.addEventListener("click", () => {
-        popup.style.display = "none";
-    });
+    const closeBtn = popup.querySelector(".close");
+    const menuCloseLink = popup.querySelector(".menuButtonCloseMenu");
+    const menuCloseLink2 = popup.querySelector(".menuButtonCloseMenu2");
+    const menuCloseLink3 = popup.querySelector(".menuButtonCloseMenu3");
+    const menuCloseLink4 = popup.querySelector(".menuButtonCloseMenu4");
+
+    if (closeBtn) {
+        closeBtn.addEventListener("click", () => {
+            popup.style.display = "none";
+        });
+    }
+
+    if (menuCloseLink) {
+        menuCloseLink.addEventListener("click", () => {
+            popup.style.display = "none";
+        });
+    }
+
+    if (menuCloseLink) {
+        menuCloseLink2.addEventListener("click", () => {
+            popup.style.display = "none";
+        });
+    }
+
+    if (menuCloseLink) {
+        menuCloseLink3.addEventListener("click", () => {
+            popup.style.display = "none";
+        });
+    }
+
+    if (menuCloseLink) {
+        menuCloseLink4.addEventListener("click", () => {
+            popup.style.display = "none";
+        });
+    }
 
     popup.addEventListener("click", (e) => {
         if (e.target === popup) popup.style.display = "none";
     });
 });
-
 
 
 document.querySelector('.dayModeButton').addEventListener('click', () => {
