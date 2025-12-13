@@ -338,7 +338,7 @@ body{
 
     display: flex;
     align-items: center;
-    justify-content: space-between; /* вот так */
+    justify-content: space-between;
     gap: 24px;
 }
 
@@ -865,6 +865,7 @@ a{
         width: 30px;
         height: 22px;
         border: none;
+        cursor: pointer;
     }
     .topAction{
         display: grid;
@@ -1078,8 +1079,6 @@ a{
         height: 25px;
     }
 
-    vkFooter
-
     .ttFooter{
         width: 25px;
         height: 25px;
@@ -1168,5 +1167,108 @@ a{
     .popup{
         overflow-y: scroll;
         overflow-x: hidden;
+    }
+
+    .closeMenuButton{
+        width: 23.32px;
+        height: 23.32px;
+    }
+
+    .closeMenu{
+        background: none;
+        padding: 0px;
+        margin-right: 0px;
+    }
+
+    .menuContent{
+        width: 300px;
+        display: grid;
+        justify-content: center;
+        position: fixed;
+        top: 56px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .menuStr{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        align-items: center;
+    }
+
+    .menuToRight{
+        width: 300px;
+        display: flex;
+        justify-content: right;
+    }
+
+    .menuButtons{
+        padding: 6px 9px 6px 9px;
+        border: 1px solid #81BECE;
+        border-radius: 50px;
+    }
+
+    .menuButtonGetCons{
+        background: linear-gradient(to right, #000000, #00CAFF);
+        border: none;
+    }
+
+    .vkNavButton{
+        width: 25px;
+        height: 25px;
+    }
+
+    .vkNavButton:hover{
+        width: 25px;
+        height: 25px;
+        background: url(/images/vkButton1.svg);
+        background-size: contain;
+    }
+
+    .ttNavButton{
+        width: 25px;
+        height: 25px;
+    }
+
+    .ttNavButton:hover{
+        width: 25px;
+        height: 25px;
+        background: url(/images/ttButton.svg);
+        background-size: contain;
+    }
+
+    .tgNavButton{
+        width: 25px;
+        height: 25px;
+    }
+
+    .tgNavButton:hover{
+        width: 25px;
+        height: 25px;
+        background: url(/images/tgButton.svg);
+        background-size: contain;
+    }
+
+    .vkFooter:hover{
+        background: url(/images/vkButton1.svg);
+        background-size: contain;
+        width: 25px;
+        height: 25px;
+    }
+
+    .ttFooter:hover{
+        background: url(/images/ttButton.svg);
+        background-size: contain;
+        width: 25px;
+        height: 25px;
+    }
+
+    .tgFooter:hover{
+        background: url(/images/tgButton.svg);
+        background-size: contain;
+        width: 25px;
+        height: 25px;
     }
 }
