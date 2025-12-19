@@ -1,5 +1,5 @@
 body{
-    background: url(/images/background.svg);
+    background: url(/images/background.avif);
     background-size: cover;
     height: auto;
     padding: 0 auto;
@@ -11,7 +11,7 @@ body{
 }
 
 .nightModeButton{
-    background: url(/images/nightModeIcon.svg);
+    background: url(/images/nightModeIcon.avif);
     width: 49px;
     height: 28.82px;
     border: none;
@@ -40,7 +40,7 @@ body{
 }
 
 .logo{
-    background: url(/images/logo.png);
+    background: url(/images/logo.avif);
     background-size: contain;
     width: 75px;
     height: 75px;
@@ -85,7 +85,7 @@ body{
 }
 
 .vkNavButton{
-    background: url(/images/vkBlueButton.svg);
+    background: url(/images/vkBlueButton.avif);
     background-size: contain;
     width: 35px;
     height: 35px;
@@ -94,11 +94,11 @@ body{
 }
 
 .vkNavButton:hover{
-    background: url(/images/vkButton1.svg)
+    background: url(/images/vkButton1.avif)
 }
 
 .ttNavButton{
-    background: url(/images/ttBlueButton.svg);
+    background: url(/images/ttBlueButton.avif);
     background-size: contain;
     width: 35px;
     height: 35px;
@@ -107,11 +107,11 @@ body{
 }
 
 .ttNavButton:hover{
-    background: url(/images/ttButton.svg)
+    background: url(/images/ttButton.avif)
 }
 
 .tgNavButton{
-    background: url(/images/tgBlueButton.svg);
+    background: url(/images/tgBlueButton.avif);
     background-size: contain;
     width: 35px;
     height: 35px;
@@ -120,7 +120,7 @@ body{
 }
 
 .tgNavButton:hover{
-    background: url(/images/tgButton.svg)
+    background: url(/images/tgButton.avif)
 }
 
 .topAction{
@@ -138,7 +138,7 @@ body{
 }
 
 .rightContentForTopAction{
-    background: url(/images/imgForTopAction.png);
+    background: url(/images/imgForTopAction.avif);
     width: 320px;
     height: 320px;
 }
@@ -290,15 +290,15 @@ body{
 }
 
 #underResult1{
-    background: url(/images/bluredBlockForResult.png);
+    background: url(/images/bluredBlockForResult.avif);
 }
 
 #underResult2{
-    background: url(/images/bluredBlockForResult2.png);
+    background: url(/images/bluredBlockForResult2.avif);
 }
 
 #underResult3{
-    background: url(/images/bluredBlockForResult3.png);
+    background: url(/images/bluredBlockForResult3.avif);
 }
 
 .result{
@@ -309,15 +309,15 @@ body{
 }
 
 #result1{
-    background: url(/images/result1.svg);
+    background: url(/images/result1.avif);
 }
 
 #result2{
-    background: url(/images/result2.svg);
+    background: url(/images/result2.avif);
 }
 
 #result3{
-    background: url(/images/result3.svg);
+    background: url(/images/result3.avif);
 }
 
 .result:hover{
@@ -375,13 +375,13 @@ body{
 }
 
 .left{
-    background: url(/images/toTheLeft.svg);
+    background: url(/images/toTheLeft.avif);
     width: 29px;
     height: 49.3px;
 }
 
 .right{
-    background: url(/images/toTheRight.svg);
+    background: url(/images/toTheRight.avif);
     width: 29px;
     height: 49.3px;
 }
@@ -454,7 +454,7 @@ body{
 }
 
 .vkReviews{
-    background: url(/images/vkReviews.svg);
+    background: url(/images/vkReviews.avif);
     width: 300px;
     height: 29px;
     border: none;
@@ -484,7 +484,7 @@ body{
 }
 
 .vkFooter{
-    background: url(/images/vkBlueButton.svg);
+    background: url(/images/vkBlueButton.avif);
     background-size: contain;
     width: 35px;
     height: 35px;
@@ -493,11 +493,11 @@ body{
 }
 
 .vkFooter:hover{
-    background: url(/images/vkButton1.svg);
+    background: url(/images/vkButton1.avif);
 }
 
 .ttFooter{
-    background: url(/images/ttBlueButton.svg);
+    background: url(/images/ttBlueButton.avif);
     background-size: contain;
     width: 35px;
     height: 35px;
@@ -506,11 +506,11 @@ body{
 }
 
 .ttFooter:hover{
-    background: url(/images/ttButton.svg);
+    background: url(/images/ttButton.avif);
 }
 
 .tgFooter{
-    background: url(/images/tgBlueButton.svg);
+    background: url(/images/tgBlueButton.avif);
     background-size: contain;
     width: 35px;
     height: 35px;
@@ -519,7 +519,7 @@ body{
 }
 
 .tgFooter:hover{
-    background: url(/images/tgButton.svg);
+    background: url(/images/tgButton.avif);
 }
 
 .footerSqazly{
@@ -634,7 +634,7 @@ body{
 }
 
 #distrImage{
-    background: url(/images/distrImage.svg);
+    background: url(/images/distrImage.avif);
 }
 
 .serviceBlock{
@@ -685,31 +685,31 @@ body{
 }
 
 #promoImage{
-    background: url(/images/promoInVK.jpg);
+    background: url(/images/promoInVK.avif);
 }
 
 #promoImage2{
-    background: url(/images/promoInTT.jpg);
+    background: url(/images/promoInTT.avif);
 }
 
 #mixAndMasterImage{
-    background: url(/images/mixAndMaster.jpg);
+    background: url(/images/mixAndMaster.avif);
 }
 
 #snippetImage{
-    background: url(/images/snippet.jpg);
+    background: url(/images/snippet.avif);
 }
 
 #coverImage{
-    background: url(/images/coverForUrRelease.jpg);
+    background: url(/images/coverForUrRelease.avif);
 }
 
 #plailistsImage{
-    background: url(/images/playlists.jpg);
+    background: url(/images/playlists.avif);
 }
 
 #communicateImage{
-    background: url(/images/comunicate.jpg);
+    background: url(/images/comunicate.avif);
 }
 
 #MixAndMasterName{
@@ -851,7 +851,7 @@ a{
         margin-top: 57px;
     }
     .nightModeButtonMobile{
-        background: url(/images/nightModeIcon.svg);
+        background: url(/images/nightModeIcon.avif);
         background-size: contain;
         background-repeat: no-repeat;
         width: 38px;
@@ -861,7 +861,7 @@ a{
         display: flex;
     }
     .menuButton{
-        background: url(/images/menuIcon.svg);
+        background: url(/images/menuIcon.avif);
         width: 30px;
         height: 22px;
         border: none;
@@ -918,7 +918,7 @@ a{
         margin-top: 12px;
     }
     .rightContentForTopAction{
-        background: url(/images/imgForTopActionMobile.svg);
+        background: url(/images/imgForTopActionMobile.avif);
         width: 300px;
         height: 300px;
     }
@@ -1019,7 +1019,7 @@ a{
 
     .right2{
     display: flex;
-    background: url(/images/toTheRight.svg);
+    background: url(/images/toTheRight.avif);
     width: 29px;
     height: 49.3px;
     }
@@ -1223,7 +1223,7 @@ a{
     .vkNavButton:hover{
         width: 25px;
         height: 25px;
-        background: url(/images/vkButton1.svg);
+        background: url(/images/vkButton1.avif);
         background-size: contain;
     }
 
@@ -1235,7 +1235,7 @@ a{
     .ttNavButton:hover{
         width: 25px;
         height: 25px;
-        background: url(/images/ttButton.svg);
+        background: url(/images/ttButton.avif);
         background-size: contain;
     }
 
@@ -1247,26 +1247,26 @@ a{
     .tgNavButton:hover{
         width: 25px;
         height: 25px;
-        background: url(/images/tgButton.svg);
+        background: url(/images/tgButton.avif);
         background-size: contain;
     }
 
     .vkFooter:hover{
-        background: url(/images/vkButton1.svg);
+        background: url(/images/vkButton1.avif);
         background-size: contain;
         width: 25px;
         height: 25px;
     }
 
     .ttFooter:hover{
-        background: url(/images/ttButton.svg);
+        background: url(/images/ttButton.avif);
         background-size: contain;
         width: 25px;
         height: 25px;
     }
 
     .tgFooter:hover{
-        background: url(/images/tgButton.svg);
+        background: url(/images/tgButton.avif);
         background-size: contain;
         width: 25px;
         height: 25px;
