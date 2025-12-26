@@ -1200,7 +1200,7 @@ a{
         align-items: center;
     }
 
-    menuStrButton{
+    .menuStrButton{
         width: 300px;
         display: flex;
         justify-content: right;
