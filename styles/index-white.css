@@ -1209,6 +1209,14 @@ a{
         align-items: center;
     }
 
+    menuStrButton{
+        width: 300px;
+        display: flex;
+        justify-content: right;
+        margin-top: 15px;
+        align-items: center;
+    }
+
     .menuToRight{
         width: 300px;
         display: flex;
