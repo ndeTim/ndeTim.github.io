@@ -912,7 +912,7 @@ a{
 
     .textForButtonForTopAction{
         color: white;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 700;
         width: 195px;
     }
@@ -922,7 +922,8 @@ a{
         margin-top: 12px;
     }
     .rightContentForTopAction{
-        background: url(/images/imgForTopActionMobile.svg);
+        background: url(/images/imgForTopActionMobile.png);
+        background-size: contain;
         width: 300px;
         height: 300px;
     }
